@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		E4273E5121BB04F500A3BFBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E5021BB04F500A3BFBB /* AppDelegate.swift */; };
 		E4273E5321BB04F500A3BFBB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E5221BB04F500A3BFBB /* HomeViewController.swift */; };
-		E4273E5521BB04F500A3BFBB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E5421BB04F500A3BFBB /* SecondViewController.swift */; };
+		E4273E5521BB04F500A3BFBB /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E5421BB04F500A3BFBB /* FavoritesViewController.swift */; };
 		E4273E5821BB04F500A3BFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4273E5621BB04F500A3BFBB /* Main.storyboard */; };
 		E4273E5A21BB04F600A3BFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4273E5921BB04F600A3BFBB /* Assets.xcassets */; };
 		E4273E5D21BB04F600A3BFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4273E5B21BB04F600A3BFBB /* LaunchScreen.storyboard */; };
 		E4273E6821BB04F600A3BFBB /* My_RecipiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E6721BB04F600A3BFBB /* My_RecipiesTests.swift */; };
-		E4273E7321BB1C1E00A3BFBB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7221BB1C1E00A3BFBB /* ThirdViewController.swift */; };
-		E4273E7721BB1F6600A3BFBB /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7621BB1F6600A3BFBB /* FourthViewController.swift */; };
-		E4273E7921BB204F00A3BFBB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7821BB204F00A3BFBB /* FifthViewController.swift */; };
+		E4273E7321BB1C1E00A3BFBB /* MyRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7221BB1C1E00A3BFBB /* MyRecipesViewController.swift */; };
+		E4273E7721BB1F6600A3BFBB /* AddNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7621BB1F6600A3BFBB /* AddNewViewController.swift */; };
+		E4273E7921BB204F00A3BFBB /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7821BB204F00A3BFBB /* SettingsViewController.swift */; };
 		E4273E7B21BB250900A3BFBB /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4273E7A21BB250900A3BFBB /* SplashScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 		E4273E4D21BB04F500A3BFBB /* My Recipies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Recipies.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4273E5021BB04F500A3BFBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4273E5221BB04F500A3BFBB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E4273E5421BB04F500A3BFBB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E4273E5421BB04F500A3BFBB /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		E4273E5721BB04F500A3BFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4273E5921BB04F600A3BFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4273E5C21BB04F600A3BFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,9 +42,9 @@
 		E4273E6321BB04F600A3BFBB /* My RecipiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My RecipiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4273E6721BB04F600A3BFBB /* My_RecipiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_RecipiesTests.swift; sourceTree = "<group>"; };
 		E4273E6921BB04F600A3BFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4273E7221BB1C1E00A3BFBB /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
-		E4273E7621BB1F6600A3BFBB /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
-		E4273E7821BB204F00A3BFBB /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		E4273E7221BB1C1E00A3BFBB /* MyRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecipesViewController.swift; sourceTree = "<group>"; };
+		E4273E7621BB1F6600A3BFBB /* AddNewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewController.swift; sourceTree = "<group>"; };
+		E4273E7821BB204F00A3BFBB /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E4273E7A21BB250900A3BFBB /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,8 +69,8 @@
 		E4273E4421BB04F500A3BFBB = {
 			isa = PBXGroup;
 			children = (
-				E4273E4F21BB04F500A3BFBB /* My Recipies */,
-				E4273E6621BB04F600A3BFBB /* My RecipiesTests */,
+				E4273E4F21BB04F500A3BFBB /* My Recipes */,
+				E4273E6621BB04F600A3BFBB /* My RecipesTests */,
 				E4273E4E21BB04F500A3BFBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,31 +84,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4273E4F21BB04F500A3BFBB /* My Recipies */ = {
+		E4273E4F21BB04F500A3BFBB /* My Recipes */ = {
 			isa = PBXGroup;
 			children = (
 				E4273E5021BB04F500A3BFBB /* AppDelegate.swift */,
 				E4273E5221BB04F500A3BFBB /* HomeViewController.swift */,
-				E4273E5421BB04F500A3BFBB /* SecondViewController.swift */,
-				E4273E7221BB1C1E00A3BFBB /* ThirdViewController.swift */,
-				E4273E7621BB1F6600A3BFBB /* FourthViewController.swift */,
-				E4273E7821BB204F00A3BFBB /* FifthViewController.swift */,
+				E4273E5421BB04F500A3BFBB /* FavoritesViewController.swift */,
+				E4273E7221BB1C1E00A3BFBB /* MyRecipesViewController.swift */,
+				E4273E7621BB1F6600A3BFBB /* AddNewViewController.swift */,
+				E4273E7821BB204F00A3BFBB /* SettingsViewController.swift */,
 				E4273E5621BB04F500A3BFBB /* Main.storyboard */,
 				E4273E7A21BB250900A3BFBB /* SplashScreenViewController.swift */,
 				E4273E5921BB04F600A3BFBB /* Assets.xcassets */,
 				E4273E5B21BB04F600A3BFBB /* LaunchScreen.storyboard */,
 				E4273E5E21BB04F600A3BFBB /* Info.plist */,
 			);
-			path = "My Recipies";
+			path = "My Recipes";
 			sourceTree = "<group>";
 		};
-		E4273E6621BB04F600A3BFBB /* My RecipiesTests */ = {
+		E4273E6621BB04F600A3BFBB /* My RecipesTests */ = {
 			isa = PBXGroup;
 			children = (
 				E4273E6721BB04F600A3BFBB /* My_RecipiesTests.swift */,
 				E4273E6921BB04F600A3BFBB /* Info.plist */,
 			);
-			path = "My RecipiesTests";
+			path = "My RecipesTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,13 +212,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4273E7921BB204F00A3BFBB /* FifthViewController.swift in Sources */,
-				E4273E5521BB04F500A3BFBB /* SecondViewController.swift in Sources */,
+				E4273E7921BB204F00A3BFBB /* SettingsViewController.swift in Sources */,
+				E4273E5521BB04F500A3BFBB /* FavoritesViewController.swift in Sources */,
 				E4273E7B21BB250900A3BFBB /* SplashScreenViewController.swift in Sources */,
 				E4273E5121BB04F500A3BFBB /* AppDelegate.swift in Sources */,
-				E4273E7321BB1C1E00A3BFBB /* ThirdViewController.swift in Sources */,
+				E4273E7321BB1C1E00A3BFBB /* MyRecipesViewController.swift in Sources */,
 				E4273E5321BB04F500A3BFBB /* HomeViewController.swift in Sources */,
-				E4273E7721BB1F6600A3BFBB /* FourthViewController.swift in Sources */,
+				E4273E7721BB1F6600A3BFBB /* AddNewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,12 +382,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PEKUACCX9;
-				INFOPLIST_FILE = "My Recipies/Info.plist";
+				INFOPLIST_FILE = "My Recipes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "neoterictechs.com.My-Recipies";
+				PRODUCT_BUNDLE_IDENTIFIER = neoterictechs.com.MyRecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,12 +400,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6PEKUACCX9;
-				INFOPLIST_FILE = "My Recipies/Info.plist";
+				INFOPLIST_FILE = "My Recipes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "neoterictechs.com.My-Recipies";
+				PRODUCT_BUNDLE_IDENTIFIER = neoterictechs.com.MyRecipes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
